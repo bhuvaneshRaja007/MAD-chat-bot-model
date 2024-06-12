@@ -1,0 +1,58 @@
+{
+    "intents": [
+      {
+        "tag": "greet",
+        "patterns": ["Hi", "Hello", "Hey", "Hi there", "Greetings"],
+        "responses": ["Hi! How can I help you with movies and dramatics club?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "See you", "Close"],
+        "responses": ["Goodbye!", "See you later!", "See you!", "Have a great day!"],
+        "context_set": ""
+      },
+      {
+        "tag": "ask_movies_schedule",
+        "patterns": ["When is the next movie screening?", "What is the schedule for movie screenings?", "When is the next movie showing?"],
+        "responses": ["Check out our website for the full schedule of movie screenings."],
+        "context_set": ""
+      },
+      {
+        "tag": "ask_club_achievement",
+        "patterns": ["What is the current achievement in this club?", "What is the biggest achievment in this club?"],
+        "responses": ["Overall winners vit vellore riviera"],
+        "context_set": ""
+      },
+      {
+        "tag": "ask_dramatics_schedule",
+        "patterns": ["When is the next drama performance?", "What is the schedule for drama performances?", "When is the next play?"],
+        "responses": ["The next drama performance will be announce in instagram page ,Check out our website or instagram for the full schedule of drama performances."],
+        "context_set": ""
+      },
+      {
+        "tag": "ask_membership",
+        "patterns": ["How do I become a member?", "How can I join?", "What are the requirements for membership?"],
+        "responses": ["You need to be a SRM ktr student, Contact our honourable convenor to join in this club."],
+        "context_set": ""
+      },
+      {
+        "tag": "ask_movies_genre",
+        "patterns": ["What types of movies do you show?", "What genres of movies do you screen?", "Do you show foreign films?"],
+        "responses": ["We show a variety of movies, including [Horror, romance, thriller etc], check out our instagram page for upcoming movies."],
+        "context_set": ""
+      },
+      {
+        "tag": "ask_dramatics_genre",
+        "patterns": ["What is the name of your convenor?", "who is your club incharge?", "who is your convenor?", "Contact of your club convenor", "How to contact your club convenor", "How to contact"],
+        "responses": ["Kondapalli Abhiram , Contact no +91 80081 33375"],
+        "context_set": ""
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["*"],
+        "responses": ["Sorry, I didn't understand that. Can you please rephrase or ask a different question?"],
+        "context_set": ""
+      }
+    ]
+  }
